@@ -43,4 +43,4 @@ https://github.com/mjuenema/Terraform-Up-and-Running-Code-Samples-Translated/.
 
 ## License
 
-This code is released under the MIT License. See LICENSE.txt.
+This code is released under the MIT License. See LICENSE.txt in /aws and /gcloud directories.
