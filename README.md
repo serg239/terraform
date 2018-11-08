@@ -6,8 +6,8 @@ This repo contains the code samples for the book *[Terraform: Up and Running](ht
 
 ## Quick start
 
-The code designed for AWS (original) is in the [aws/code](/aws/code) folder. 
-The code translated for Google Cloud Platform is in the [gcloud/code](/gcloud/code) folder.
+> The code designed for AWS (original) is in the [aws/code](/aws/code) folder. 
+> The code translated for Google Cloud Platform is in the [gcloud/code](/gcloud/code) folder.
 
 The code is organized by language (terraform, bash, ruby, etc) and within each language, by chapter. 
 Since this code comes from a book about Terraform, the vast majority of the code consists of
