@@ -1,0 +1,4 @@
+[submodule "aws"]
+        path = aws
+        url = https://github.com/serg239/terraform/aws.git
+
