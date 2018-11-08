@@ -1,0 +1,6 @@
+There are  two MIT Licenses (MIT)
+
+AWS: Copyright (c) 2016 Yevgeniy Brikman
+gcloud: Copyright (c) 2017 Markus Juenemann
+
+See the LICENSE.txt files in the corresponding aws and gcloud directories.
