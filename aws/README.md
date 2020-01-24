@@ -13,15 +13,17 @@ Create simple Web server on EC2 instance.<br>
 Resources:
 * IAM
 * VPC:
-  * AMI
   * IGW
   * RTB
   * Public/Private subnets in AZs
   * EIP
   * NAT GW
+* AMI
 * SG
 * EC2
   * Data source for user_data shell script
+
+Note: the graph (as .png file) is in the web-ec2/graph directory.
 
 ## Common steps to run projects ##
 
