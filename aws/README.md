@@ -30,7 +30,8 @@ Notes:
 ```
 
 2. The graph (as .png file) is in the infra-ec2/graph directory
-  To create graph and convet it to .pdf or .png files:
+
+To create graph and convet it to .pdf or .png files:
 ```bash
   $ terraform graph > 2020_02_09_plan.dot
   $ dot -Tpdf 2020_02_09_plan.dot -o 2020_02_09_plan.pdf
