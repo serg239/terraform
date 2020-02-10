@@ -8,9 +8,11 @@ This repo contains HCL (Terraform) code to deploy AWS services in custom VPC.
   3. Shared credentials are defined by running:
 ``` bash
   $ aws configure --profile <key-name>
-```  
-and saved in ~/.aws/credentials and ~/.aws/config files
+```
+and saved in ~/.aws/credentials file.
 
+The Region definition is saved in ~/.aws/config file.
+ 
 # Projects #
 
 ## infra-ec2 ## 
