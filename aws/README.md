@@ -38,12 +38,12 @@ To create graph and convet it to .pdf or .png files:
   $ dot -Tpng 2020_02_09_plan.dot -o 2020_02_09_plan.png
 ```  
 
-## Common steps to run projects ##
+## Common steps to run project(s) ##
 
 * $ terrafotrm init
 * $ terraform validate
-* $ terraform plan
-* $ terraform apply
+* $ terraform plan -out=2020_02_09.tfplan -input=false -lock=true
+* $ terraform apply 2020_02_09.tfplan
 * $ terraform destroy
 
 
