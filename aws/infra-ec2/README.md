@@ -23,16 +23,19 @@ To create graph and convet it to .pdf or .png files:
   $ dot -Tpng 2020_02_09_plan.dot -o 2020_02_09_plan.png
 ```  
 
-Terraform Plan: 
+Terraform plan: 
 ![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-ec2/graph/2020_02_09_plan.png "Terraform Plan")
 
 ## Steps to run the project ##
 
-* $ terrafotrm init
-* $ terraform validate
-* $ terraform plan -out=2020_02_09.tfplan -input=false -lock=true
-* $ terraform apply 2020_02_09.tfplan
-* $ terraform destroy
+```bash
+$ terrafotrm init
+$ terraform validate
+$ terraform plan -out=2020_02_09.tfplan -input=false -lock=true
+$ terraform apply 2020_02_09.tfplan
+
+$ terraform destroy
+```
 
 ## License
 
