@@ -3,6 +3,7 @@
 *.tfstate.backup
 *.tfplan
 *.json
+*.tf.ignore
 
 # Module directory
 .terraform
