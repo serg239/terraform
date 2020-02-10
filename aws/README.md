@@ -17,7 +17,7 @@ and saved in ~/.aws/credentials and ~/.aws/config files
 Create simple Web server on EC2 instance.<br>
 
 AWS Resources: 
-![alt text](https://github.com/serg239/terraform/master/aws/infra-ec2/graph/infra-ec2.png "AWS Resources")
+![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-ec2/graph/infra-ec2.png "AWS Resources")
 
 Notes:
 1. Data source for user_data shell script:
