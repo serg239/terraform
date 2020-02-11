@@ -16,3 +16,4 @@ The Region definition is saved in ~/.aws/config file.
 # Projects #
 
 ## Simple Web server: [infra-ec2](https://github.com/serg239/terraform/blob/master/aws/infra-ec2)
+## DB/Web servers with shared storage of state files on S3 bucket: [infra-comp](https://github.com/serg239/terraform/blob/master/aws/infra-comp)
