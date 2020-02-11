@@ -2,8 +2,16 @@
 # Create EC2 instance in custom VPC
 # #####################################
 # Prerequisites:
-#  1. Have AWS CLI installed and AWS account configured with secret keys
-#  2. A key pair for EC2 instances
+#   1. Have AWS CLI installed and AWS account configured with secret keys
+#   2. A key pair for EC2 instances
+# Variables:
+#   To create Private network: create-private-subnets = true
+# #####################################
+# Usage:
+#   terragrunt plan -out=2020_02_09.tfplan -input=false -lock=true
+#   terragrunt apply 2020_02_09.tfplan
+#   terragrant destroy
+# #####################################
 
 terraform {
   required_version = ">= 0.12, < 0.13"
@@ -14,14 +22,10 @@ terraform {
 # #####################################
 # Set up AWS provider - service to set up resources
 provider "aws" {
-  # Shared credentials are defined by running:
-  #    aws configure --profile aws-web-user
-  # and saved in ~/.aws/credentials file
-  # So, define file and profile here:
+
   shared_credentials_file = "~/.aws/credentials"
   profile = var.key-name
-  # Region definition is saved in ~/.aws/config file
-  region = var.aws-region
+  region  = var.aws-region
 
   # Allow any 2.x version of the AWS provider
   version = "~> 2.1"
