@@ -1,7 +1,6 @@
 # Project #
 
-## infra-ec2 ## 
-Create simple Web server on EC2 instance.<br>
+## infra-ec2 - Create simple Web server on EC2 instance ##
 
 AWS Resources: 
 ![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-ec2/graph/infra-ec2.png "AWS Resources")
