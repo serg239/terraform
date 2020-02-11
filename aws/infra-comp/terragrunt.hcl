@@ -1,3 +1,4 @@
+# Configure Terragrunt to automatically store tfstate files in S3
 remote_state {
   backend = "s3"
   config = {
@@ -6,5 +7,13 @@ remote_state {
     region  = "us-west-1"
     encrypt = true
     dynamodb_table = "infra-comp"
+  }
+}
+
+# Configure Terragrunt to use DynamoDB for locking
+lock = {
+  backend = "dynamodb"
+  config = {
+    state_file_id = "global/s3"
   }
 }
