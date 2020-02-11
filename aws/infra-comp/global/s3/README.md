@@ -9,6 +9,6 @@
 
 In the project I isolate VPC, DB, and Web state files and save them in the S3 bucket.
 
-AWS Resources:
-
+AWS Resources
+-------------
 ![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-comp/images/s3_dynamodb.png "AWS Resources")
