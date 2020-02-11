@@ -176,8 +176,6 @@ resource "aws_db_instance" "pg-database" {
   password               = var.database_password        # TF_VAR_database_password
   db_subnet_group_name   = [element(concat(aws_db_subnet_group.public-subnet-group.*.id, [""]), 0),
                             element(concat(aws_db_subnet_group.private-subnet-group.*.id, [""]), 0)][0]
-
-  # element(concat(var.public-subnets, [""]), count.index)
   vpc_security_group_ids = [aws_security_group.rds-sg.id]
   skip_final_snapshot    = true
   publicly_accessible    = var.create-db-network    # true if public subnet

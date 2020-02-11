@@ -9,11 +9,3 @@ remote_state {
     dynamodb_table = "infra-comp"
   }
 }
-
-# Configure Terragrunt to use DynamoDB for locking
-lock = {
-  backend = "dynamodb"
-  config = {
-    state_file_id = "global/s3"
-  }
-}
