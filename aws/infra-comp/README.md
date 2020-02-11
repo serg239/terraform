@@ -1,5 +1,5 @@
 # infra-comp project #
----
+
 ### Create S3 bucket, custom VPC, DB cluster, and Web server ###
 
 ### Project Components ###
