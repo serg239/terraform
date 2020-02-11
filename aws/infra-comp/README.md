@@ -2,7 +2,8 @@
 
 ## infra-comp - Create custom VPC, DB cluster, and Web server ##
 
-Notes:
+Notes
+-----
 * State files of the components are isolated and saved in S3 bucket
 * Save outputs of state files into S3 
 * Using terraform_remote_state data source to read data from the VPC, DB and EC2 state files
@@ -11,10 +12,13 @@ Notes:
 * Use count as "if-else" statements
 * Switch user_data betweeh EC2 instances in AZs
 
-AWS Resources: 
+AWS Resources
+-------------
 
+File layout
+-----------
 
-File layout (Development environment):
+Development environment:
 ```bash
 $ tree
 +-- dev
