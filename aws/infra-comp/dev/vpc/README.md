@@ -1,6 +1,4 @@
-# VPC component #
-
-## VPC - Custom Virtual Private Cloud (VPC) ##
+## VPC component - Custom Virtual Private Cloud ##
 
 ### AWS Resources ###
 ![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-comp/images/vpc.png "Custom VPC")
