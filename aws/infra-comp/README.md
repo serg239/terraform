@@ -14,7 +14,7 @@ Notes:
 AWS Resources: 
 
 
-File layout:
+File layout (Development environment):
 ```bash
 $ tree
 +-- dev
