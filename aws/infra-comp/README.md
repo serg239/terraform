@@ -15,9 +15,19 @@ Notes
 AWS Resources
 -------------
 
+## Steps to run the project ##
+
+```bash
+$ terragrunt init
+$ terragrunt validate
+$ terragrunt plan -out=2020_02_10.tfplan -input=false -lock=true
+$ terragrunt apply 2020_02_10.tfplan
+
+$ terragrunt destroy
+```
+
 File layout
 -----------
-
 Development environment:
 ```bash
 $ tree
