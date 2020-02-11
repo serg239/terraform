@@ -28,14 +28,14 @@ ddb-table-name = "infra-comp"
 
 ### Steps to deploy and destroy the component ###
 ```bash
-$ terragrunt init
-$ terragrunt validate
-$ terragrunt plan -out=2020_02_10.tfplan -input=false -lock=true
+$ terraform init
+$ terraform validate
+$ terraform plan -out=2020_02_10.tfplan -input=false -lock=true
 
-$ terragrunt apply 2020_02_10.tfplan
+$ terraform apply 2020_02_10.tfplan
 Outputs:
 dynamodb_table_name = infra-comp
 s3_bucket_arn = arn:aws:s3:::infra-comp-bucket-serg239
 
-$ terragrunt destroy
+$ terraform destroy
 ```
