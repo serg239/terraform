@@ -1,6 +1,12 @@
-# Project #
+# infra-comp project #
+---
+### Create S3 bucket, custom VPC, DB cluster, and Web server ###
 
-## infra-comp - Create custom VPC, DB cluster, and Web server ##
+### Project Components ###
+* [S3 bucket](https://github.com/serg239/terraform/blob/master/aws/infra-comp/global/s3 "S3 bucket")
+* [Custom VPC](https://github.com/serg239/terraform/blob/master/aws/infra-comp/dev/vpc "Custom VPC")
+* [PostgreSQL DB (RDS)](https://github.com/serg239/terraform/blob/master/aws/infra-comp/dev/db/postgres "PostgreSQL DB (RDS)")
+* [Web server (EC2)](https://github.com/serg239/terraform/blob/master/aws/infra-comp/dev/services/frontend "Web server (EC2)")
 
 ### Notes ###
 * State files of the components are isolated and saved in S3 bucket
@@ -10,12 +16,6 @@
 * Load balancer and security groups
 * Use count as "if-else" statements
 * Switch user_data betweeh EC2 instances in AZs
-
-### Project Components ###
-* [S3 bucket](https://github.com/serg239/terraform/blob/master/aws/infra-comp/global/s3 "S3 bucket")
-* [Custom VPC](https://github.com/serg239/terraform/blob/master/aws/infra-comp/dev/vpc "Custom VPC")
-* [PostgreSQL DB (RDS)](https://github.com/serg239/terraform/blob/master/aws/infra-comp/dev/db/postgres "PostgreSQL DB (RDS)")
-* [Web server (EC2)](https://github.com/serg239/terraform/blob/master/aws/infra-comp/dev/services/frontend "Web server (EC2)")
 
 ### File layout ###
 Development environment:
