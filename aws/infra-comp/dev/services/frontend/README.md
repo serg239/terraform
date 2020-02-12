@@ -1,7 +1,7 @@
 # Web server component (EC2 instances) #
 
 ### AWS Resources ###
-![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-comp/images/web.jpg "PostgreSQL DB")
+![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-comp/images/web_ec2.png "Web server (EC2 instances)")
 
 ### Notes ###
 * State file, outputs, and version are saved in S3 bucket
