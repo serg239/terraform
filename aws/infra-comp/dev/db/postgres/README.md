@@ -1,7 +1,7 @@
 # PostgreSQL DB component (RDS) #
 
 ### AWS Resources ###
-![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-comp/images/pgdb.jpg "PostgreSQL DB")
+![alt text](https://github.com/serg239/terraform/blob/master/aws/infra-comp/images/pg_db.png "PostgreSQL DB")
 
 ### Notes ###
 * State file, outputs, and version are saved in S3 bucket
